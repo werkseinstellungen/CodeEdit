@@ -63,7 +63,10 @@ struct UpdatingWindowController: DynamicProperty {
                 self?.objectWillChange.send()
             }
             utilityAreaCancellable = controller?.workspace?.utilityAreaModel?.objectWillChange.sink { [weak self] in
-                self?.objectWillChange.send()
+                // Publishing changes from within view updates is not allowed, this will cause undefined behavior.
+                DispatchQueue.main.async {
+                    self?.objectWillChange.send()
+                }
             }
             let activeEditor = controller?.workspace?.editorManager?.activeEditor
             activeEditorCancellable = activeEditor?.objectWillChange.sink { [weak self] in

@@ -21,21 +21,37 @@ struct StartTaskToolbarButton: View {
     }
 
     var body: some View {
-        Button {
-            taskManager.executeActiveTask()
-            if utilityAreaCollapsed {
-                CommandManager.shared.executeCommand("open.drawer")
+        HStack {
+            Button {
+                if let workspaceURL = workspace.fileURL {
+                    PlaydateCompiler.compile(workspaceURL)
+                }
+            } label: {
+                Label("Build for Playdate", systemImage: "hammer.fill")
+                    .labelStyle(.iconOnly)
+                    .opacity(activeState == .inactive ? 0.5 : 1.0)
+                    .font(.system(size: 18, weight: .regular))
+                    .frame(width: 28)
+                    .offset(CGSize(width: 0, height: 2.5))
             }
-            workspace.utilityAreaModel?.selectedTab = .debugConsole
-            taskManager.taskShowingOutput = taskManager.selectedTaskID
-        } label: {
-            Label("Start", systemImage: "play.fill")
-                .labelStyle(.iconOnly)
-                .opacity(activeState == .inactive ? 0.5 : 1.0)
-                .font(.system(size: 18, weight: .regular))
-                .help("Start selected task")
-                .frame(width: 28)
-                .offset(CGSize(width: 0, height: 2.5))
+            .keyboardShortcut("B", modifiers: .command)
+            Button {
+                taskManager.executeActiveTask()
+                if utilityAreaCollapsed {
+                    CommandManager.shared.executeCommand("open.drawer")
+                }
+                workspace.utilityAreaModel?.selectedTab = .debugConsole
+                taskManager.taskShowingOutput = taskManager.selectedTaskID
+            } label: {
+                Label("Start", systemImage: "play.fill")
+                    .labelStyle(.iconOnly)
+                    .opacity(activeState == .inactive ? 0.5 : 1.0)
+                    .font(.system(size: 18, weight: .regular))
+                    .help("Start selected task")
+                    .frame(width: 28)
+                    .offset(CGSize(width: 0, height: 2.5))
+            }
+            .keyboardShortcut("R", modifiers: .command)
         }
     }
 }

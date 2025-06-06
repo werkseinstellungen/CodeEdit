@@ -37,6 +37,15 @@ struct StatusBarView: View {
 //            StatusBarBreakpointButton()
 //            StatusBarDivider()
             Spacer()
+            Text("Playdate Edition")
+                .font(.caption)
+                .foregroundStyle(.white)
+                .padding(.horizontal, 5)
+                .padding(.vertical, 2)
+                .background {
+                    Capsule()
+                        .foregroundStyle(.purple)
+                }
             StatusBarFileInfoView()
             StatusBarCursorPositionLabel()
             StatusBarDivider()

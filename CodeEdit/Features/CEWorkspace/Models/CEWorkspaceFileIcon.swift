@@ -87,6 +87,7 @@ enum FileIcon {
         case xcconfig
         case yml
         case zsh
+        case pdz
     }
 
     // swiftlint:enable identifier_name
@@ -161,8 +162,12 @@ enum FileIcon {
             return "gearshape.2"
         case .cetheme:
             return "paintbrush"
+        case .lua:
+            return "l.square"
+        case .pdz:
+            return "document.badge.gearshape.fill"
         case .adb, .clj, .cls, .cs, .d, .dart, .elm, .ex, .f95, .fs, .gs, .hs,
-             .jl, .kt, .l, .lsp, .lua, .mk, .pas, .pl, .scm, .ss:
+             .jl, .kt, .l, .lsp, .mk, .pas, .pl, .scm, .ss:
             return "doc.plaintext"
         default:
             return "doc"
@@ -173,7 +178,7 @@ enum FileIcon {
     /// If not specified otherwise this will return `Color.accentColor`
     static func iconColor(fileType: FileType?) -> Color { // swiftlint:disable:this cyclomatic_complexity
         switch fileType {
-        case .swift, .html:
+        case .swift, .html, .pdz:
             return .orange
         case .java, .jpg, .png, .svg, .ts:
             return .blue
@@ -187,7 +192,7 @@ enum FileIcon {
             return .cyan
         case .plist, .xcconfig, .sh:
             return Color.steel
-        case .c, .cetheme:
+        case .c, .lua, .cetheme:
             return .purple
         case .vue:
             return Color(red: 0.255, green: 0.722, blue: 0.514, opacity: 1.0)

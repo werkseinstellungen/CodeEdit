@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; title = "Font"; ObjectID = "Bq4-5z-QA0"; */
+"Bq4-5z-QA0.title" = "字体";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "JFX-om-Z1l"; */
+"JFX-om-Z1l.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "SF3-vr-qMZ"; */
+"SF3-vr-qMZ.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Size"; ObjectID = "YJN-Kb-Xp8"; */
+"YJN-Kb-Xp8.title" = "大小";
+
+/* Class = "NSTextFieldCell"; title = "Style"; ObjectID = "iP0-01-Wh9"; */
+"iP0-01-Wh9.title" = "样式";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "itQ-YK-jMV"; */
+"itQ-YK-jMV.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "p4l-mW-xoj"; */
+"p4l-mW-xoj.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "rNd-aj-nN4"; */
+"rNd-aj-nN4.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "zrg-MC-6w4"; */
+"zrg-MC-6w4.title" = "Item 2";

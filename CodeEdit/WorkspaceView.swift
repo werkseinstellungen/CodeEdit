@@ -9,6 +9,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 struct WorkspaceView: View {
+    
     @Environment(\.window.value)
     private var window: NSWindow?
 

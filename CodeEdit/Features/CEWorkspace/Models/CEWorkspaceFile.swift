@@ -226,6 +226,9 @@ final class CEWorkspaceFile: Codable, Comparable, Hashable, Identifiable, Editor
         if self.name == ".codeedit" {
             return "folder.fill.badge.gearshape"
         }
+        if self.name == ".pdbuild" {
+            return "gearshape.2.fill"
+        }
         return isEmptyFolder ? "folder" : "folder.fill"
     }
 

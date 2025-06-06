@@ -1,0 +1,57 @@
+
+/* Class = "NSTextFieldCell"; title = "INACTIVE"; ObjectID = "0An-RM-PWT"; */
+"0An-RM-PWT.title" = "不活跃";
+
+/* Class = "NSButtonCell"; title = "Remove License"; ObjectID = "2gj-d7-m6e"; */
+"2gj-d7-m6e.title" = "移除许可证";
+
+/* Class = "NSTextFieldCell"; title = "XXXX-XXXX-XXXX-XXXX-XXXX-X"; ObjectID = "2nE-Cl-CmU"; */
+"2nE-Cl-CmU.title" = "XXXX-XXXX-XXXX-XXXX-XXXX-X";
+
+/* Class = "NSTextFieldCell"; title = "Johnny Appleseed"; ObjectID = "3bG-Fa-bvM"; */
+"3bG-Fa-bvM.title" = "Johnny Appleseed";
+
+/* Class = "NSTextFieldCell"; title = "Subscription ID:"; ObjectID = "42H-dX-OHb"; */
+"42H-dX-OHb.title" = "订购 ID：";
+
+/* Class = "NSButtonCell"; title = "Restore Purchase"; ObjectID = "6YL-ua-tdu"; */
+"6YL-ua-tdu.title" = "恢复购买";
+
+/* Class = "NSTextFieldCell"; title = "Privacy and Terms"; ObjectID = "7V0-Ws-X4h"; */
+"7V0-Ws-X4h.title" = "隐私与条款";
+
+/* Class = "NSTextFieldCell"; title = "1984/01/24"; ObjectID = "8fB-aR-E65"; */
+"8fB-aR-E65.title" = "1/24/84";
+
+/* Class = "NSTextFieldCell"; title = "XXX-XXXXX"; ObjectID = "BvP-eY-gql"; */
+"BvP-eY-gql.title" = "XXX-XXXXX";
+
+/* Class = "NSButtonCell"; title = "Manage Subscription"; ObjectID = "EHE-FI-tZ6"; */
+"EHE-FI-tZ6.title" = "管理订购";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "-"; ObjectID = "FtA-y5-0FE"; */
+"FtA-y5-0FE.ibShadowedIsNilPlaceholder" = "-";
+
+/* Class = "NSTextFieldCell"; title = "1984/01/24"; ObjectID = "Oah-ih-iqQ"; */
+"Oah-ih-iqQ.title" = "1984/01/24";
+
+/* Class = "NSButtonCell"; title = "About Licenses"; ObjectID = "PAp-ei-cQi"; */
+"PAp-ei-cQi.title" = "关于许可证";
+
+/* Class = "NSWindow"; title = "License"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "许可证";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "TGB-co-A45"; */
+"TGB-co-A45.title" = "状态：";
+
+/* Class = "NSTextFieldCell"; title = "ACTIVE"; ObjectID = "Tk0-qA-Mhc"; */
+"Tk0-qA-Mhc.title" = "活跃";
+
+/* Class = "NSTextFieldCell"; title = "Licensed To:"; ObjectID = "aUH-Ah-FWT"; */
+"aUH-Ah-FWT.title" = "许可给：";
+
+/* Class = "NSTextFieldCell"; title = "Subscription"; ObjectID = "c3f-sr-W1r"; */
+"c3f-sr-W1r.title" = "订购";
+
+/* Class = "NSTextFieldCell"; title = "Purchase Date:"; ObjectID = "guT-hG-xVr"; */
+"guT-hG-xVr.title" = "购买日期：";
